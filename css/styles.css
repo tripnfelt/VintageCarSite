@@ -1,0 +1,50 @@
+
+
+
+.card {
+    height: 350px;
+    width: 290px;
+    padding: 8px 4px 8px 4px;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+    box-sizing: border-box;
+    border: 2px black solid;
+    text-align:center
+    
+
+}
+
+.navbar-brand {
+    font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+    color: blueviolet !important; 
+}
+
+img {
+    height: 200px;
+    width: 250px;
+    
+}
+
+form {
+    border: 2px black solid;
+    padding: 10px 10px 10px 15px;
+    background-color: rgb(204, 255, 184);
+    margin: 10px 10px 0 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    task {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    img {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+
+  #toplink {
+      text-align: right;
+  }
