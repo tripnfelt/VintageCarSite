@@ -1,142 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VintageCarSite</title>
-</head>
-<body>
-    
-<!-- Navbar Start -->
-<nav id="top_jump" class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-      <a class="navbar-brand" >Vintage Cars</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div
+        class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2"
+      >
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#listings_jump">Cars</a>
+            <a class="nav-link active" aria-current="page" href="#listings_jump"
+              >Cars</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#enquire_jump">Enquiries</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact_jump">Contact</a>
+          </li>
         </ul>
       </div>
-    </div>
-  </nav>
-<!-- Navbar End -->
+      <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="#">vIntAGe CarZ</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target=".dual-collapse2"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- Navbar End -->
 
-<!-- Heading Start -->
-<!-- Heading End -->
+    <!-- Heading Start -->
+    <header>
+      <h1>Vintage Cars 4 Hire</h1>
+    </header>
+    <!-- Heading End -->
 
-<!-- Car Listing Cards start -->
-<section id="listings_jump" class="container">
-    <h4>Car Listings</h4>
-    <div class="row">
-      <div class="col">
-        <div class="card">
+    <!-- Car Listing Cards start -->
+    <section id="listings_jump" class="container">
+      <h4>Car Listings</h4>
+      <div class="row">
+        <div class="col">
+          <div class="card">
             <picture>
-            <img src="./images/car1.jpg" alt="Nice Car" />
+              <img src="./images/car1.jpg" alt="Nice Car" />
             </picture>
             <h3></h3>
             <p>Car Type: Blue Car</p>
             <p>Cost: $1000/pw</p>
+          </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
+        <div class="col">
+          <div class="card">
             <picture>
-            <img src="./images/car2.jpg" alt="Beautiful Car" />
+              <img src="./images/car2.jpg" alt="Beautiful Car" />
             </picture>
             <h3></h3>
             <p>Car Type: Red Car</p>
             <p>Cost: $67/pw</p>
+          </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
+        <div class="col">
+          <div class="card">
             <picture>
-            <img src="./images/car3.jpg" alt="Perfect Car" />
+              <img src="./images/car3.jpg" alt="Perfect Car" />
             </picture>
             <h3></h3>
             <p>Car Type: Brown Car</p>
             <p>Cost: $600/pw</p>
+          </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
+        <div class="col">
+          <div class="card">
             <picture>
-            <img src="./images/car4.jpg" alt="Pristine Car, honest" />
+              <img src="./images/car4.jpg" alt="Pristine Car, honest" />
             </picture>
             <h3></h3>
             <p>Car Type: White Car</p>
             <p>Cost: $230/pw</p>
+          </div>
         </div>
       </div>
-    </div>
-</section>
-<!-- Car Listing Cards End -->
+    </section>
+    <!-- Car Listing Cards End -->
 
-<!-- Form Start -->
-<form id="enquire_jump">
-    <h4>Enquire about a car</h4>
-    <div class="mb-3">
+    <br />
+
+    <!-- Form Start -->
+    <form id="enquire_jump">
+      <h4>Enquire about a car</h4>
+      <div class="mb-3">
         <label for="FullName" class="form-label">Full Name</label>
-        <input type="text" class="form-control" id="FullName">
+        <input type="text" class="form-control" id="FullName" />
       </div>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+        <div id="emailHelp" class="form-text">
+          We'll never share your email with anyone else.
+        </div>
+      </div>
 
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Subscribe to mailing List</label>
-    </div>
-    <select class="form-select" aria-label="Default select example">
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1"
+          >Subscribe to mailing List</label
+        >
+      </div>
+      <select class="form-select" aria-label="Default select example">
         <option selected>Choose your Car</option>
         <option value="1">Blue Car</option>
         <option value="2">Red Car</option>
         <option value="3">Brown Car</option>
         <option value="3">White Car</option>
       </select>
-    <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Comments</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
       </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-<!-- Form End -->
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <!-- Form End -->
 
-<!-- Contact Information Start -->
-<address id="contact_jump">
-    <h4>Contact Information</h4>
-    Vintage Car Garage
-    <br>
-    1355 Market St, Suite 900
-    <br>
-    San Francisco, CA 94103
-    <br>
-    P: (123) 456-7890
-    <br>
-    first.last@example.com
+    <br />
+
+    <!-- Contact Information Start -->
+    <address id="contact_jump">
+      <h4>Contact Information</h4>
+      Vintage Car Garage
+      <br />
+      1355 Market St, Suite 900
+      <br />
+      San Francisco, CA 94103
+      <br />
+      P: (123) 456-7890
+      <br />
+      first.last@example.com
     </address>
-<!-- Contact Information End -->
 
-<!-- Back to top Nav Start -->
-<p id="toplink"><a href="#top_jump">Back to top</a></p>
-<!-- Back to top Nav End -->
+    <!-- Contact Information End -->
 
-<!-- Footer Start -->
-<p>Copyright 2021 &copy; All Rights Reserved</p>
-<!-- Footer End -->
-</body>
+    <!-- Back to top Nav Start -->
+    <p id="toplink"><a href="#top_jump">Back to top</a></p>
+    <!-- Back to top Nav End -->
+
+    <br />
+
+    <!-- Footer Start -->
+    <footer>
+      <p>Copyright 2021 &copy; All Rights Reserved</p>
+    </footer>
+    <!-- Footer End -->
+  </body>
 </html>
